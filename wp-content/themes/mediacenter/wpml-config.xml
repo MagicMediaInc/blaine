@@ -1,0 +1,11 @@
+<wpml-config>
+	<admin-texts>
+		<key name="media_center_theme_options">
+			<key name="header_support_phone" />
+			<key name="header_support_email" />
+			<key name="footer_contact_info_text" />
+			<key name="footer_contact_info_address" />
+			<key name="footer_copyright_text" />
+		</key>
+	</admin-texts>
+</wpml-config>
