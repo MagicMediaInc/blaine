@@ -490,14 +490,14 @@ div.wp-menu-image:before{
 
 #adminmenuwrap:before, .folded #adminmenuwrap:before{
 	content: " ";
-	width:100%;
+	width:90%;
 	height:69px;
 	display: block;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: transparent;
-	padding-top: 23px;
-	background-position: 0px 23px;
+	padding-top: 30px;
+	background-position: 10px 23px;
 }
 
 #adminmenuwrap:before{
