@@ -329,7 +329,7 @@ class WC_MercadoPago_Gateway extends WC_Payment_Gateway {
 			// Display checkout.
 			$html = '<p>' . __( 'Thank you for your order, please click the button below to pay with MercadoPago.', 'woocommerce-mercadopago' ) . '</p>';
 
-			$html .= '<a id="submit-payment" href="' . $url . '" name="MP-Checkout" class="button alt" mp-mode="modal">' . __( 'Pay via MercadoPago', 'woocommerce-mercadopago' ) . '</a> <a class="button cancel" href="' . esc_url( $order->get_cancel_order_url() ) . '">' . __( 'Cancel order &amp; restore cart', 'woocommerce-mercadopago' ) . '</a>';
+			$html .= '<a class="btn-block le-button big checkout-button button alt wc-forward" id="submit-payment" href="' . $url . '" name="MP-Checkout" class="button alt" mp-mode="modal">' . __( 'Pay via MercadoPago', 'woocommerce-mercadopago' ) . '</a> <a class="button cancel btn-block le-button big inverse button" href="' . esc_url( $order->get_cancel_order_url() ) . '">' . __( 'Cancel order &amp; restore cart', 'woocommerce-mercadopago' ) . '</a>';
 
 			// Add MercadoPago JS.
 			$html .= '<script type="text/javascript">(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName("script")[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ? window.attachEvent("onload", $MPBR_load) : window.addEventListener("load", $MPBR_load, false)) : null;})();</script>';
