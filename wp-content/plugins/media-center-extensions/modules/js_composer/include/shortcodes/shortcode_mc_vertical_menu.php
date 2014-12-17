@@ -11,7 +11,7 @@ function shortcode_mc_vertical_menu( $atts ){
 	$vertical_menu = '';
 
 	extract(shortcode_atts(array(
-		'title'                  => __( 'All Departments' , 'media_center_vc_extend'),
+		'title'                  => __( 'Todas las Categorías' , 'media_center_vc_extend'),
 		'icon_class'             => 'fa-list',
 		'menu'                   => '',
 		'el_class'               => '',
