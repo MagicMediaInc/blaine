@@ -11,11 +11,11 @@ $inputValue = ($s) ? $s : '';
 		<div class="form-group">
 		    <label for="page-search" class="sr-only"><?php echo __( 'Type your search here', 'media_center' ); ?></label>
 		    <input type="search" name="s" id="s" class="search-input form-control" placeholder="<?php echo __( 'Type to search', 'reen' ); ?>" autocomplete="off" value="<?php echo $s;?>">
-			<button type="submit" class="page-search-button">
-			    <span class="fa fa-search">
-			    	<span class="sr-only"><?php echo __( 'Search', 'media_center' ); ?></span>
-			    </span>
-			</button>
-		</div><!-- /.page-search-button-->
+		</div>
+		<button type="submit" class="page-search-button" style="width:100%">
+		    <span class="fa fa-search">
+		    	<span class="sr-only"><?php echo __( 'Search', 'media_center' ); ?></span>
+		    </span>
+		</button><!-- /.page-search-button-->
 	</form><!-- /.search-form -->
 </div>
