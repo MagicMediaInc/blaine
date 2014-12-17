@@ -16,7 +16,7 @@ $top_bar_right_switch = isset( $media_center_theme_options['top_bar_right_switch
 
 <nav class="top-bar">
     <div class="container">
-        <div class="col-xs-12 col-sm-6 no-margin <?php if( $media_center_theme_options['top_bar_left_menu_dropdown_animation'] != 'none' ) { echo 'animate-dropdown'; } ?>">
+        <div class="col-xs-12 col-sm-5 no-margin <?php if( $media_center_theme_options['top_bar_left_menu_dropdown_animation'] != 'none' ) { echo 'animate-dropdown'; } ?>">
         <?php 
             if( $top_bar_left_switch ) {
                 echo media_center_top_left_nav_menu();
@@ -25,7 +25,7 @@ $top_bar_right_switch = isset( $media_center_theme_options['top_bar_right_switch
         </div><!-- /.col -->
         
         
-        <div class="col-xs-12 col-sm-6 no-margin <?php if( $media_center_theme_options['top_bar_right_menu_dropdown_animation'] != 'none' ) { echo 'animate-dropdown'; } ?>">
+        <div class="col-xs-12 col-sm-7 no-margin <?php if( $media_center_theme_options['top_bar_right_menu_dropdown_animation'] != 'none' ) { echo 'animate-dropdown'; } ?>">
         <?php 
             if( $top_bar_right_switch ) {
                 echo media_center_top_right_nav_menu();
