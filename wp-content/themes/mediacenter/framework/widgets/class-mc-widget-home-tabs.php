@@ -32,33 +32,33 @@ class MC_Widget_Home_Tabs extends WC_Widget {
 				'std'     => 'featured_products',
 				'label'   => __( 'Show', 'media_center' ),
 				'options' => array(
-					'featured_products' 	=> __( 'Featured Products', 'media_center' ),
-					'sale_products' 		=> __( 'On Sale Products', 'media_center' ),
-					'top_rated_products' 	=> __( 'Top Rated Products', 'media_center' ),
-					'recent_products' 		=> __( 'Recent Products', 'media_center' ),
-					'best_selling_products' => __( 'Best Selling Products', 'media_center' ),
+					'featured_products' 	=> __( 'Productos Catacterísticos', 'media_center' ),
+					'sale_products' 		=> __( 'Productos en Venta', 'media_center' ),
+					'top_rated_products' 	=> __( 'Mejores Productos', 'media_center' ),
+					'recent_products' 		=> __( 'Productos Recientes', 'media_center' ),
+					'best_selling_products' => __( 'Mejores Vendidos', 'media_center' ),
 				)
 			),
 			'title_tab_2'  => array(
 				'type'  => 'text',
-				'std'   => __( 'New Arrivals', 'media_center' ),
+				'std'   => __( 'Nuevas adquisiciones', 'media_center' ),
 				'label' => __( 'Tab #2 Title', 'media_center' )
 			),
 			'content_tab_2' => array(
 				'type'    => 'select',
 				'std'     => 'recent_products',
-				'label'   => __( 'Show', 'media_center' ),
+				'label'   => __( 'Ver', 'media_center' ),
 				'options' => array(
-					'featured_products' 	=> __( 'Featured Products', 'media_center' ),
-					'sale_products' 		=> __( 'On Sale Products', 'media_center' ),
-					'top_rated_products' 	=> __( 'Top Rated Products', 'media_center' ),
-					'recent_products' 		=> __( 'Recent Products', 'media_center' ),
-					'best_selling_products' => __( 'Best Selling Products', 'media_center' ),
+					'featured_products' 	=> __( 'Productos Catacterísticos', 'media_center' ),
+					'sale_products' 		=> __( 'Productos en Venta', 'media_center' ),
+					'top_rated_products' 	=> __( 'Mejores Productos', 'media_center' ),
+					'recent_products' 		=> __( 'Productos Recientes', 'media_center' ),
+					'best_selling_products' => __( 'Mejores Vendidos', 'media_center' ),
 				)
 			),
 			'title_tab_3'  => array(
 				'type'  => 'text',
-				'std'   => __( 'Top Sales', 'media_center' ),
+				'std'   => __( 'MEjores Ventas', 'media_center' ),
 				'label' => __( 'Tab #3 Title', 'media_center' )
 			),
 			'content_tab_3' => array(
@@ -66,21 +66,21 @@ class MC_Widget_Home_Tabs extends WC_Widget {
 				'std'     => 'best_selling_products',
 				'label'   => __( 'Show', 'media_center' ),
 				'options' => array(
-					'featured_products' 	=> __( 'Featured Products', 'media_center' ),
-					'sale_products' 		=> __( 'On Sale Products', 'media_center' ),
-					'top_rated_products' 	=> __( 'Top Rated Products', 'media_center' ),
-					'recent_products' 		=> __( 'Recent Products', 'media_center' ),
-					'best_selling_products' => __( 'Best Selling Products', 'media_center' ),
+					'featured_products' 	=> __( 'Productos Catacterísticos', 'media_center' ),
+					'sale_products' 		=> __( 'Productos en Venta', 'media_center' ),
+					'top_rated_products' 	=> __( 'Mejores Productos', 'media_center' ),
+					'recent_products' 		=> __( 'Productos Recientes', 'media_center' ),
+					'best_selling_products' => __( 'Mejores Vendidos', 'media_center' ),
 				)
 			),
 			'product_item_size' => array(
 				'type'    => 'select',
 				'std'     => 'size-medium',
-				'label'   => __( 'Product Item Size', 'media_center' ),
+				'label'   => __( 'Tamaño del Producto', 'media_center' ),
 				'options' => array(
-					'size-big'    => __( 'Size Big', 'media_center' ),
-					'size-medium' => __( 'Size Medium', 'media_center' ),
-					'size-small'  => __( 'Size Small', 'media_center' ),
+					'size-big'    => __( 'Grande', 'media_center' ),
+					'size-medium' => __( 'Mediano', 'media_center' ),
+					'size-small'  => __( 'Pequeño', 'media_center' ),
 				)
 			),
 			'screen_width' => array(

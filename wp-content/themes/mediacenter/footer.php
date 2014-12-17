@@ -27,13 +27,13 @@ global $media_center_theme_options;
 					);
 
         			$footer_widget_area_args['widget_id'] = 'featured-products-footer';
-					the_widget( 'WC_Widget_Products', array( 'title' => __( 'Featured Products', 'media_center' ), 'show' => 'featured', 'number' => '3', 'orderby' => 'DESC', 'order' => 'date', 'id' => 'featured-products-footer' ), $footer_widget_area_args );
+					the_widget( 'WC_Widget_Products', array( 'title' => __( 'Productos Destacados', 'media_center' ), 'show' => 'featured', 'number' => '3', 'orderby' => 'DESC', 'order' => 'date', 'id' => 'featured-products-footer' ), $footer_widget_area_args );
 
         			$footer_widget_area_args['widget_id'] = 'special-offers-footer';
-					the_widget( 'WC_Widget_Products', array( 'title' => __( 'Special Offers', 'media_center' ), 'show' => 'onsale', 'number' => '3', 'orderby' => 'DESC', 'order' => 'date', 'id' => 'onsale-products-footer' ), $footer_widget_area_args );
+					the_widget( 'WC_Widget_Products', array( 'title' => __( 'Ofertas Especiales', 'media_center' ), 'show' => 'onsale', 'number' => '3', 'orderby' => 'DESC', 'order' => 'date', 'id' => 'onsale-products-footer' ), $footer_widget_area_args );
 					
 					$footer_widget_area_args['widget_id'] = 'top-rated-products-footer';
-					the_widget( 'WC_Widget_Top_Rated_Products', array( 'title' => __( 'Top Rated Products', 'media_center' ), 'number' => '3', 'id' => 'top-rated-products-footer' ), $footer_widget_area_args );
+					the_widget( 'WC_Widget_Top_Rated_Products', array( 'title' => __( 'Los Mejores Productos', 'media_center' ), 'number' => '3', 'id' => 'top-rated-products-footer' ), $footer_widget_area_args );
 
             	}
             ?>
@@ -44,9 +44,9 @@ global $media_center_theme_options;
 	        <div class="container">
 	            <div class="col-xs-12 col-sm-8 col-sm-offset-2 no-padding">
 	            	<form role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/'  ) ); ?>">
-						<label class="sr-only screen-reader-text" for="s"><?php  echo __( 'Search for:', 'woocommerce' );?></label>
-						<input type="text" value="<?php echo get_search_query();?>" name="s" id="s" placeholder="<?php echo __( 'Search for products', 'woocommerce' );?>" />
-						<button type="submit" class="le-button" id="searchsubmit" value="<?php echo esc_attr__( 'Search', 'woocommerce' );?>"><?php echo esc_attr__( 'Search', 'woocommerce' );?></button>
+						<label class="sr-only screen-reader-text" for="s"><?php  echo __( 'Búsqueda por:', 'woocommerce' );?></label>
+						<input type="text" value="<?php echo get_search_query();?>" name="s" id="s" placeholder="<?php echo __( 'Buscar productos', 'woocommerce' );?>" />
+						<button type="submit" class="le-button" id="searchsubmit" value="<?php echo esc_attr__( 'Búsqueda', 'woocommerce' );?>"><?php echo esc_attr__( 'Buscar', 'woocommerce' );?></button>
 						<input type="hidden" name="post_type" value="product" />
 					</form>
 	            </div>
@@ -142,7 +142,7 @@ global $media_center_theme_options;
 
 							echo '<div class="columns"><aside class="widget clearfix"><div class="body">';
 							echo '<h4 class="widget-title">';
-							echo __( 'Find it Fast', 'media_center' );
+							echo __( 'Encuentra rápido', 'media_center' );
 							echo '</h4>';
 							echo '<ul class="menu-find-it-fast menu">';
 							echo wp_list_categories(
@@ -169,11 +169,11 @@ global $media_center_theme_options;
 							the_widget( 'WP_Widget_Meta', array( 'title' => __( 'Meta', 'media_center' ) ), $footer_bottom_widget_area_args );
 
 		        			$footer_bottom_widget_area_args['widget_id'] = 'pages-footer-footer';
-							the_widget( 'WP_Widget_Pages', array( 'title' => __( 'Pages', 'media_center') ), $footer_bottom_widget_area_args );
+							the_widget( 'WP_Widget_Pages', array( 'title' => __( 'Páginas', 'media_center') ), $footer_bottom_widget_area_args );
 							
 							echo '<div class="columns"><aside class="widget clearfix"><div class="body">';
 							echo '<h4 class="widget-title">';
-							echo __( 'My Account', 'media_center' );
+							echo __( 'Mi cuenta', 'media_center' );
 							echo '</h4>';
 							echo media_center_woocommerce_pages();
 							echo '</div></aside></div>';
