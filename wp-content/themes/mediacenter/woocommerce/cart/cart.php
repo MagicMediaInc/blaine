@@ -21,7 +21,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<div class="col-xs-12">
 			<div class="section section-page-title inner-xs">
 				<div class="page-header">
-					<h2 class="page-title"><?php echo __( 'Shopping Cart Summary', 'media_center' ); ?></h2>
+					<h2 class="page-title"><?php echo __( 'Resumen de Compra', 'media_center' ); ?></h2>
 				</div>
 			</div>
 		</div>
@@ -35,13 +35,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 			<div class="row no-margin cart-item hidden-xs table-head">
 				<div class="col-xs-12 col-sm-4 col-sm-offset-1">
-					<h4><?php echo __( 'Product', 'media_center' ); ?></h4>
+					<h4><?php echo __( 'Producto', 'media_center' ); ?></h4>
 				</div>
 				<div class="col-xs-12 col-sm-2">
-					<h4><?php echo __( 'Unit Price', 'media_center' ); ?></h4>
+					<h4><?php echo __( 'Precio Unitario', 'media_center' ); ?></h4>
 				</div>
 				<div class="col-xs-12 col-sm-3">
-					<h4><?php echo __( 'Quantity', 'media_center' ); ?></h4>
+					<h4><?php echo __( 'Cantidad', 'media_center' ); ?></h4>
 				</div>
 				<div class="col-xs-12 col-sm-2">
 					<h4><?php echo __( 'Total', 'media_center' ); ?></h4>
@@ -144,11 +144,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 						<div class="row">
 							<div class="col-sm-8">
 								<div class="coupon">
-									<h2 class="sr-only"><?php _e( 'Coupon', 'woocommerce' ); ?></h2>
+									<h2 class="sr-only"><?php _e( 'Cupón', 'woocommerce' ); ?></h2>
 									<div class="inline-input clearfix">
-										<label for="coupon_code" class="sr-only"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> 
-										<input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php _e( 'Coupon code', 'woocommerce' ); ?>" /> 
-										<input type="submit" class="le-button button" name="apply_coupon" value="<?php _e( 'Apply', 'woocommerce' ); ?>" />
+										<label for="coupon_code" class="sr-only"><?php _e( 'Cupón', 'woocommerce' ); ?>:</label> 
+										<input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php _e( 'Código de Cupón', 'woocommerce' ); ?>" /> 
+										<input type="submit" class="le-button button" name="apply_coupon" value="<?php _e( 'Aplicar', 'woocommerce' ); ?>" />
 									</div><!-- /.inline-input -->
 									<?php do_action('woocommerce_cart_coupon'); ?>
 								</div><!-- /.coupon -->	
@@ -164,11 +164,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 						<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 
 						<div class="row">
-							<div class="col-xs-12 col-sm-4 col-sm-offset-2">
-								<input type="submit" class="btn-block le-button big inverse button" name="update_cart" value="<?php _e( 'Update Cart', 'woocommerce' ); ?>" /> 		
+							<div class="col-xs-12 col-sm-5 col-sm-offset-2">
+								<input type="submit" class="btn-block le-button big inverse button" name="update_cart" value="<?php _e( 'Actualizar Carrito', 'woocommerce' ); ?>" /> 		
 							</div>
-							<div class="col-xs-12 col-sm-6">
-								<input type="submit" class="btn-block le-button big checkout-button button alt wc-forward" name="proceed" value="<?php _e( 'Proceed to Checkout', 'woocommerce' ); ?>" />
+							<div class="col-xs-12 col-sm-5">
+								<input type="submit" class="btn-block le-button big checkout-button button alt wc-forward" name="proceed" value="<?php _e( 'Ir A La Caja', 'woocommerce' ); ?>" />
 							</div>
 						</div>
 					</div><!-- /.buttons-holder -->	
