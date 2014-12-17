@@ -57,7 +57,7 @@ $classes = array( 'product-item', 'product-list-item-wrap' );
                 </div>
                 <?php if( class_exists('YITH_Woocompare') ): ?>
                 <div class="addto-compare btn-action-link">
-                    <?php echo media_center_add_to_compare_button( $product->id, __( 'Add to Compare', 'media_center' ) ); ?>
+                    <?php echo media_center_add_to_compare_button( $product->id, __( 'Añadir a comparación', 'media_center' ) ); ?>
                 </div>
                 <?php endif; ?>
             </div>

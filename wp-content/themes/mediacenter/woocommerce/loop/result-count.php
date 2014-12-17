@@ -27,9 +27,9 @@ if ( ! woocommerce_products_will_display() )
 	if ( 1 == $total ) {
 		_e( 'Showing the single result', 'woocommerce' );
 	} elseif ( $total <= $per_page || -1 == $per_page ) {
-		printf( __( 'Showing all <span>%d</span> results', 'woocommerce' ), $total );
+		printf( __( 'Listanto todos los <span>%d</span> resultados', 'woocommerce' ), $total );
 	} else {
-		printf( _x( 'Showing <span>%1$d&ndash;%2$d</span> of <span>%3$d</span> results', '%1$d = first, %2$d = last, %3$d = total', 'woocommerce' ), $first, $last, $total );
+		printf( _x( 'Listando <span>%1$d&ndash;%2$d</span> de <span>%3$d</span> resultados', '%1$d = primero, %2$d = último, %3$d = total', 'woocommerce' ), $first, $last, $total );
 	}
 ?>
 </div>
