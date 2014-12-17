@@ -10,7 +10,7 @@ $inputValue = ($s) ? $s : '';
 	<form id="search" class="search-form" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<div class="form-group">
 		    <label for="page-search" class="sr-only"><?php echo __( 'Escribe lo que buscas', 'media_center' ); ?></label>
-		    <input type="search" name="s" id="s" class="search-input form-control" placeholder="<?php echo __( 'Búsqueda', 'reen' ); ?>" autocomplete="off" value="<?php echo $s;?>">
+		    <input type="search" name="s" id="s" class="search-input form-control" placeholder="<?php echo __( 'Escribe aquí', 'reen' ); ?>" autocomplete="off" value="<?php echo $s;?>">
 		</div>
 		<button type="submit" class="page-search-button" style="width:100%">
 		    <span class="fa fa-search">
