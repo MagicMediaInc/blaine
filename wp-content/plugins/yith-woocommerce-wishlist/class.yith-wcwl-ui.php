@@ -142,7 +142,7 @@ public static function popup_message() {
         $imageurl = urlencode( get_option( 'yith_wcwl_socials_image_url' ) );
 
         $html  = '<div class="yith-wcwl-share">';
-        $html .= apply_filters( 'yith_wcwl_socials_share_title', '<h4>' . __( 'Share on:', 'yit' ) . '</h4>' );
+        $html .= apply_filters( 'yith_wcwl_socials_share_title', '<h4>' . __( 'Compartir en:', 'yit' ) . '</h4>' );
         $html .= '<ul>';
 
         if( get_option( 'yith_wcwl_share_fb' ) == 'yes' )

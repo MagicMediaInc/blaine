@@ -1029,45 +1029,45 @@ if ( ! class_exists( 'YITH_WCWL_Init' ) ) {
                 array( 'name' => __( 'Socials &amp; Share', 'yit' ), 'type' => 'title', 'desc' => '', 'id' => 'yith_wcwl_socials_share' ),
 
                 array(
-                    'name'    => __( 'Share on Facebook', 'yit' ),
+                    'name'    => __( 'Compartir en Facebook', 'yit' ),
                     'id'      => 'yith_wcwl_share_fb',
                     'std'     => 'yes', // for woocommerce < 2.0
                     'default' => 'yes', // for woocommerce >= 2.0
                     'type'    => 'checkbox'
                 ),
                 array(
-                    'name'    => __( 'Tweet on Twitter', 'yit' ),
+                    'name'    => __( 'Enviar un Tweet', 'yit' ),
                     'id'      => 'yith_wcwl_share_twitter',
                     'std'     => 'yes', // for woocommerce < 2.0
                     'default' => 'yes', // for woocommerce >= 2.0
                     'type'    => 'checkbox'
                 ),
                 array(
-                    'name'    => __( 'Pin on Pinterest', 'yit' ),
+                    'name'    => __( 'Pin en Pinterest', 'yit' ),
                     'id'      => 'yith_wcwl_share_pinterest',
                     'std'     => 'yes', // for woocommerce < 2.0
                     'default' => 'yes', // for woocommerce >= 2.0
                     'type'    => 'checkbox'
                 ),
                 array(
-                    'name'    => __( 'Share on Google+', 'yit' ),
+                    'name'    => __( 'Compartir en Google+', 'yit' ),
                     'id'      => 'yith_wcwl_share_googleplus',
                     'std'     => 'yes', // for woocommerce < 2.0
                     'default' => 'yes', // for woocommerce >= 2.0
                     'type'    => 'checkbox'
                 ),
                  array(
-                    'name'    => __( 'Share by Email', 'yit' ),
+                    'name'    => __( 'Enviar por Email', 'yit' ),
                     'id'      => 'yith_wcwl_share_email',
                     'std'     => 'yes', // for woocommerce < 2.0
                     'default' => 'yes', // for woocommerce >= 2.0
                     'type'    => 'checkbox'
                 ),
                 array(
-                    'name'    => __( 'Socials title', 'yit' ),
+                    'name'    => __( 'Redes Sociales', 'yit' ),
                     'id'      => 'yith_wcwl_socials_title',
-                    'std'     => sprintf( __( 'My wishlist on %s', 'yit' ), get_bloginfo( 'name' ) ), // for woocommerce < 2.0
-                    'default' => sprintf( __( 'My wishlist on %s', 'yit' ), get_bloginfo( 'name' ) ), // for woocommerce >= 2.0
+                    'std'     => sprintf( __( 'Mi lista de Deseos en %s', 'yit' ), get_bloginfo( 'name' ) ), // for woocommerce < 2.0
+                    'default' => sprintf( __( 'Mi lista de Deseos en %s', 'yit' ), get_bloginfo( 'name' ) ), // for woocommerce >= 2.0
                     'type'    => 'text',
                     'css'     => 'min-width:300px;',
                 ),
