@@ -13,12 +13,12 @@ get_header(); ?>
 					<p class="lead"><?php echo __( 'We are sorry, the page you\'ve requested is not available.', 'media_center' ); ?></p>
 					<div class="sub-form-row inner-top-xs inner-bottom-xs">
 		                <form id="search" class="search-form" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-		                    <input type="search" name="s" id="s" placeholder="<?php echo __( 'Type to search', 'reen' ); ?>" autocomplete="off" value="<?php echo $s;?>">
-		                    <button type="submit" class="le-button"><?php echo __( 'Go', 'media_center' ); ?></button>
+		                    <input type="search" name="s" id="s" placeholder="<?php echo __( 'Búsqueda', 'reen' ); ?>" autocomplete="off" value="<?php echo $s;?>">
+		                    <button type="submit" class="le-button"><?php echo __( 'Ir', 'media_center' ); ?></button>
 		                </form>
 				    </div>
 					<div class="text-center">
-						<a class="btn-lg huge" href="#"><i class="fa fa-home"></i> <?php echo __( 'Go to Home Page', 'media_center' ); ?></a>
+						<a class="btn-lg huge" href="#"><i class="fa fa-home"></i> <?php echo __( 'Ir a la Página Inicial', 'media_center' ); ?></a>
 					</div>
 				</div>
 			</div>
