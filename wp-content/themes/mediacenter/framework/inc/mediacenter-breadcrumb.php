@@ -30,7 +30,7 @@ function media_center_display_breadcrumb( $header_style ){
             <ul class="inline">
                 <li class="dropdown le-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" <?php echo $data_hover; ?>>
-                        <i class="fa fa-list"></i> <?php echo __( 'Shop by Department' , 'media_center' ); ?>
+                        <i class="fa fa-list"></i> <?php echo __( 'Comprar por Categorías' , 'media_center' ); ?>
                     </a>
                     <?php echo media_center_department_nav_menu(); ?>
                 </li>

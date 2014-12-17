@@ -48,7 +48,7 @@ $display_search_categories_filter = isset( $media_center_theme_options['display_
                         }                                                                      
                     }
                     if($category_filter_value === ''){
-                        $category_filter_value = __('All Categories', 'media_center');
+                        $category_filter_value = __('Todas las Categorías', 'media_center');
                     }
                 ?>
                 <?php if( $display_search_categories_filter ) : ?>
@@ -56,7 +56,7 @@ $display_search_categories_filter = isset( $media_center_theme_options['display_
                     <li class="dropdown">
                         <a id="category-filter-value" class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $category_filter_value; ?></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li role="presentation"><a class="category-dropdown" role="menuitem" data-value="" tabindex="-1" href="#"><?php echo __('All Categories', 'media_center'); ?></a>
+                            <li role="presentation"><a class="category-dropdown" role="menuitem" data-value="" tabindex="-1" href="#"><?php echo __('Todas las Categorías', 'media_center'); ?></a>
                             <?php echo $categories_filter; ?>
                         </ul>
                     </li>

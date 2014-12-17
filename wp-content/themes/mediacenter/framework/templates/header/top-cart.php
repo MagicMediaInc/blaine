@@ -17,7 +17,7 @@ global $media_center_theme_options, $yith_wcwl, $yith_woocompare;
         <div class="wishlist">
             <a id="yith-wishlist-link" href="<?php echo esc_url( $yith_wcwl->get_wishlist_url() ); ?>">
                 <i class="fa fa-heart"></i> 
-                <?php echo __( 'Wishlist', 'media_center' ); ?> 
+                <?php echo __( 'Lista de Deseos', 'media_center' ); ?> 
                 <span id="top-cart-wishlist-count" class="value">(<?php echo yith_wcwl_count_products(); ?>)</span> 
             </a>
         </div><!-- /.wishlist -->
@@ -37,7 +37,7 @@ global $media_center_theme_options, $yith_wcwl, $yith_woocompare;
             ?>
             <a id="yith-woocompare-link" href="<?php echo $product_compare_page_url; ?>" class="<?php echo $product_compare_class; ?>">
                 <i class="fa fa-exchange"></i> 
-                <?php echo __( 'Compare', 'media_center' ); ?>
+                <?php echo __( 'Comparar', 'media_center' ); ?>
                 <span id="top-cart-compare-count" class="value">(<?php echo count( $yith_woocompare->obj->products_list ); ?>)</span> 
             </a>
         </div><!-- /.compare -->
