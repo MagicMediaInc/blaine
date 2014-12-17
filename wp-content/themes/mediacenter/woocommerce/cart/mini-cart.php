@@ -34,7 +34,7 @@ if( $cart_subtotal >= 1000000 ){
     </div>
 
     <div class="total-price-basket"> 
-        <span class="lbl"><?php echo __('Your Cart:', 'media_center'); ?></span>
+        <span class="lbl"><?php echo __('Tu Carrito:', 'media_center'); ?></span>
         <span class="total-price <?php echo $tp_font_class; ?>">
         	<?php echo WC()->cart->get_cart_subtotal(); ?>
         </span>
